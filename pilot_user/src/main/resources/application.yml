@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://localhost:3306/edu?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:13306/edu?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
     type: com.alibaba.druid.pool.DruidDataSource
     initialSize: 5
     # 最小连接池个数——》已经不再使用，配置了也没效果

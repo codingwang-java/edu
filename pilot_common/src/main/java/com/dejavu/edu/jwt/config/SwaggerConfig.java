@@ -1,4 +1,4 @@
-package com.dejavu.edu.config;
+package com.dejavu.edu.jwt.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

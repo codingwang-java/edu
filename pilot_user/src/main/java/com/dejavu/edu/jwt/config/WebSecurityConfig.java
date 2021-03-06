@@ -1,4 +1,4 @@
-package com.dejavu.edu.config;
+package com.dejavu.edu.jwt.config;
 
 import com.dejavu.edu.jwt.filter.JWTAuthenticationFilter;
 import com.dejavu.edu.jwt.handler.AuthenticationFailHandler;

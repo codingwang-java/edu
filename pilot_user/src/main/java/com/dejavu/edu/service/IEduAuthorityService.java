@@ -1,6 +1,6 @@
 package com.dejavu.edu.service;
 
-import com.dejavu.edu.model.EduAuthority;
+import com.dejavu.edu.entity.EduAuthority;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author dejavu
- * @since 2021-03-04
+ * @since 2021-03-07
  */
 public interface IEduAuthorityService extends IService<EduAuthority> {
 

@@ -57,7 +57,7 @@ public class MybatisPlusGenerator {
             PackageConfig pc = new PackageConfig();
             pc.setModuleName("edu");
             pc.setParent("com.dejavu");
-            pc.setEntity("model");
+            pc.setEntity("entity");
             mpg.setPackageInfo(pc);
 
             // 自定义配置

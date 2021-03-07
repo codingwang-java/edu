@@ -14,12 +14,13 @@
         <module>pilot_user</module>
     </modules>
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
         <java.version>11</java.version>
         <nettyServer>${project.version}</nettyServer>
         <nettyClient>${project.version}</nettyClient>
         <lombok.version>1.18.16</lombok.version>
-        <springboot.version>2.4.1</springboot.version>
+        <springboot.version>2.0.6.RELEASE</springboot.version>
         <redis.version>3.4.1</redis.version>
         <lang3.version>3.11</lang3.version>
         <swagger2.version>2.9.2</swagger2.version>

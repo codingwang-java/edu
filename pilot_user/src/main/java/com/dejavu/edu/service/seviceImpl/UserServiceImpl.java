@@ -18,7 +18,7 @@ import javax.annotation.Resource;
  **/
 @Service
 public class UserServiceImpl implements UserDetailsService , UserService {
-    @Resource
+
     private PasswordEncoder passwordEncoder;
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {

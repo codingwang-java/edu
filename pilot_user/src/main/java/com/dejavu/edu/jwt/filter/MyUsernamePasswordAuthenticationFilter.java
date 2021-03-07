@@ -22,7 +22,6 @@ import java.nio.charset.Charset;
  * @description
  * @create 2021-02-28 21:34
  **/
-@Component
 public class MyUsernamePasswordAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
     public MyUsernamePasswordAuthenticationFilter() {
         //拦截url为 "/login" 的POST请求

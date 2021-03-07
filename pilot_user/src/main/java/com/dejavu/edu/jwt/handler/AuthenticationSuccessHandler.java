@@ -29,10 +29,10 @@ import java.util.List;
 @Component
 @Slf4j
 public class AuthenticationSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
-    @Value("${xboot.tokenExpireTime}")
+
     private Integer tokenExpireTime;
 
-    @Value("${xboot.saveLoginTime}")
+
     private Integer saveLoginTime;
 
     @Override

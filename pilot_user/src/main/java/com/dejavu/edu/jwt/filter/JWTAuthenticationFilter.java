@@ -35,8 +35,8 @@ import java.util.List;
  * @create 2021-02-24 23:49
  **/
 @Slf4j
-@Component
 public class JWTAuthenticationFilter extends BasicAuthenticationFilter {
+
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
         super(authenticationManager);
     }
